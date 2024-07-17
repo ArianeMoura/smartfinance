@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Finanças Pessoais</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Changa:wght@200..800&family=Indie+Flower&display=swap"
+        rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Changa:wght@200..800&family=Indie+Flower&family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+   
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Changa:wght@200..800&family=Indie+Flower&family=Kumbh+Sans:wght@100..900&family=Unica+One&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <header>
+            <h1>Smart Finance</h1>
+            <div class="balance">
+                <h2>Saldo Total:</h2>
+                <p id="balance">R$ 0.00</p>
+            </div>
+        </header>
+        <main>
+            <div class="transaction-form">
+                <form id="transaction-form">
+                    <input type="text" id="transaction-description" placeholder="Descrição" required>
+                    <input type="number" id="transaction-amount" placeholder="Valor" required>
+                    <select id="transaction-type">
+                        <option value="income">Entrada</option>
+                        <option value="expense">Saída</option>
+                    </select>
+                    <button type="submit">Adicionar</button>
+                </form>
+            </div>
+            <div class="transactions">
+                <h2>Transações</h2>
+                <ul id="transaction-list"></ul>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
