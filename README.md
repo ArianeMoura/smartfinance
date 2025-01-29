@@ -26,7 +26,8 @@ Smart Finance is a simple and intuitive web application for personal financial m
 
   <br>
 
-📸 **Screenshots**
+🖥️ **Screenshots**
+
 
 <img width="860" alt="image" src="https://github.com/user-attachments/assets/ca3a74a7-42c2-4053-b1cd-b682bed03026">
 
@@ -36,6 +37,6 @@ Smart Finance is a simple and intuitive web application for personal financial m
 <br>
 <br>
 
-🖥️  **Access the Project**
+🌐 **Access the Project**
 
 Click <a href="https://arianemoura.github.io/smartfinance/">here</a> to access the website.
